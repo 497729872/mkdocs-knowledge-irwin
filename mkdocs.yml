@@ -46,6 +46,8 @@ nav:
 
   - MacBook:
       - 环境搭建: macbook/setup.md
+  - Home:
+      - 家庭: home/index.md
 
 plugins:
   - search:
