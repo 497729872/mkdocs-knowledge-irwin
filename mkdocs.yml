@@ -1,26 +1,42 @@
 site_name: Irwin知识库
 site_author: Irwin
-site_description: 设计/AI/金融/生活体验/诗词
+site_description: 设计 / AI / 金融 / 生活体验 / 诗词
+
 site_url: https://wiki.links888star.top/
+
 repo_url: https://github.com/497729872/mkdocs-knowledge-irwin
 repo_name: GitHub
 
 theme:
   name: material
-
   language: zh
 
-features:
-  - navigation.tabs
-  - navigation.sections
-  - navigation.expand
-  - navigation.top
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
 
-  - search.suggest
-  - search.highlight
-  - search.share
+    - search.suggest
+    - search.highlight
+    - search.share
 
-  - content.code.copy
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      primary: teal
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+
+    - scheme: slate
+      primary: black
+      accent: yellow
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
 
 nav:
   - 首页: index.md
@@ -30,3 +46,12 @@ nav:
 
   - MacBook:
       - 环境搭建: macbook/setup.md
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+copyright: |
+  Copyright © 2026 Irwin
