@@ -1,0 +1,13 @@
+site_name: Irwin知识库
+
+theme:
+  name: material
+
+nav:
+  - 首页: index.md
+
+  - Python:
+      - FastAPI: python/fastapi.md
+
+  - MacBook:
+      - 环境搭建: macbook/setup.md
