@@ -1,7 +1,26 @@
 site_name: Irwin知识库
+site_author: Irwin
+site_description: 设计/AI/金融/生活体验/诗词
+site_url: https://wiki.links888star.top/
+repo_url: https://github.com/497729872/mkdocs-knowledge-irwin
+repo_name: GitHub
 
 theme:
   name: material
+
+  language: zh
+
+features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.expand
+  - navigation.top
+
+  - search.suggest
+  - search.highlight
+  - search.share
+
+  - content.code.copy
 
 nav:
   - 首页: index.md
